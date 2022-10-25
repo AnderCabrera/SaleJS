@@ -1,0 +1,22 @@
+{
+  "name": "salejs",
+  "version": "1.0.0",
+  "description": "a buy and sales system",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnderCabrera/SaleJS.git"
+  },
+  "author": "Ander Cabrera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnderCabrera/SaleJS/issues"
+  },
+  "homepage": "https://github.com/AnderCabrera/SaleJS#readme",
+  "dependencies": {
+    "serve": "^14.0.1"
+  }
+}
