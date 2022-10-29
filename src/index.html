@@ -4,8 +4,51 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css -->
+    <link rel="stylesheet" href="./normalize/normalize.css" />
+    <link rel="stylesheet" href="./sass/main.css" />
     <title>Shop</title>
   </head>
 
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="header-logo">
+        <a href="#"><img src="./resources/img/logo-kea-1.png" class="logo" alt="shop-logo"></a>
+      </div>
+      <div class="header-search_bar_container">
+        <input type="text" name="search-product" id="search-bar" placeholder="Search product">
+        <img src="./resources/img/icon-search.png" alt="searc-icon">
+      </div>
+      <div class="header-icon_options">
+        <img src="./resources/img/icon-create.png" alt="create-item-icon" width="25px"> 
+        <img src="./resources/img/icon-shop-car.png" alt="shop-car-icon" width="25px">
+      </div>
+    </header>
+    
+    <nav class="nav">
+      <ul>
+        <li><a href="#">Computers</a></li>
+        <li><a href="#">Software</a></li>
+        <li><a href="#">Games</a></li>
+        <li class="dropdown-item">
+          <a href="#">Home appliances</a>
+          <ul>
+            <li><a href="#">Refrigerators</a></li>
+            <li><a href="#">Microwaves</a></li>
+            <li><a href="#">Toasters</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="main">
+      <!-- <div class="product">
+        <img src="./resources/img/logo-kea-2.png" alt="testxd"> -->
+      </div>
+    </main>
+
+    <footer class="footer">
+
+    </footer>
+  </body>
 </html>
